@@ -23,7 +23,7 @@
                <ul class="menu">
                 <li class="inicio"><a href="http://127.0.0.1:5500/index.html"target="_blank">inicio</a></li>
                 <li class="contacto"><a href="https://wa.me/542665276622"target="_blank">contacto</a></li>
-                <li class="mas"><a href="canal.html">saber menos</a></li> 
+                <li class="mas"><a href="canal.html">saber mas</a></li> 
                </ul>
         </nav>
         <section class="textos-header">
@@ -231,21 +231,22 @@
     </section> -->
   </main>
     <div class="flex-container">
-      <form class="form">
+      <form id = "form" class="form">
         <div class="form__section">
-          <input type="text" class="form__input" placeholder="Escriba su email" > 
+          <input name="email" type="email" class="form__input" placeholder="Escriba su email" > 
         </div>
         <div class="form__section"> 
-          <input type="email" class="form__input" placeholder="Escriba su asunto" >
+          <input name="text" type="text" class="form__input" placeholder="Escriba su asunto" >
         </div>
         <div class="form__section">
-          <textarea class="form__input" placeholder="Escriba su mensaje" ></textarea>
+          <textarea name="enviar" class="form__input" placeholder="Escriba su mensaje" ></textarea>
         </div>
         <div class="form__section">
-          <input type="submit" class="form__input" >
+          <input   type="submit" class="form__input" >
         </div>
-        
+  
       </form>
+      <a href="mailto:subjona@gmail.com" id="mensajeria">email</a>
      <div class="form-img">
         <div class="img-conteiner">
            <div>
@@ -309,7 +310,9 @@
           </div>
         
        </footer>
+  
   <script src="main.js"></script>
+
 </body>
 </html>
 

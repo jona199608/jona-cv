@@ -12,6 +12,9 @@ body{
     --purpledark:#5a0f8bbd;
 }
 
+#mensajeria{
+opacity: 0;
+}
 .contenedor{
     padding: 20px 0;
     width: 90%;
